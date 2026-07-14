@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(135deg, #3776AB, #FFD43B);
+    color:#F8FAFC;
+    margin:0;
+    font-family:Arial, sans-serif;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    margin:40px auto;
+
+    display:grid;
+
+    gap:25px;
+} #h1 {
+      font-size: 28px;
+    font-weight: bold;
+
+    background: linear-gradient(to left, #008cff, #d6ac12);
+
+}
+
+.card{
+    background:#1E293B;
+    border-radius:20px;
+    padding:20px;
+    color:#FFD43B;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+      box-shadow:0 0 10px rgb(4, 29, 141);
+}
+
+
+.card p{
+    color:#F8FAFC;
+    line-height:1.8;
+    font-size:21px;
+} .card p:hover {
+    color: #FFD43B;
+    transition: .4s;
+}
+ .photo {
+    width: 100px;
+    height: auto;
+    padding: 20px;
+} #h1 {
+  
+    text-align:center;
+} .img {
+    text-align: center;
+}.card h1{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:15px;
+
+    background:linear-gradient(to top,#008cff,#d6ac12);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}.uses{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-top:20px;
+}
+
+.use{
+    background:#26364d;
+    border-radius:15px;
+    padding:15px;
+    text-align:center;
+} .use:hover {
+    box-shadow:0 0 10px rgb(243, 228, 17);
+    transition: .7s;
+}
+
+.use img{
+    width:120px;
+    height:120px;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+.use h3{
+    color:#FFD43B;
+}
+
+.use p{
+    color:#fff;
+    font-size:18px;
+} .img  img:hover {
+    box-shadow: 0 0 10px rgb(82, 80, 1);
+    border-radius: 10px;
+    transition: .5s;
+} .use p:hover{ 
+    color:#83a4ff;
+   transition: .3s;
+}
